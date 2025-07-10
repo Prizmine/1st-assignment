@@ -25,7 +25,9 @@
 
 
 
-
+body{
+    background-color: #4d47ff09;
+}
 
 
 /* header */
@@ -262,3 +264,28 @@ nav{
 .avater-date{
     margin-top: 2px;
 }
+
+
+/* focus-section */
+
+.focus-sec{
+    display: flex;
+    justify-content: center;
+    margin-top: 137px;
+}
+
+.focus-banner{
+    width: 1140px;
+    height: 696.77px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 50px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 14px;
+}
+
+.focus-title{
+    text-align: center;
+    margin-top: 71px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
