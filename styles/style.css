@@ -42,6 +42,7 @@ body{
     background-image: linear-gradient(to right, pink, lightblue, lightgreen, yellow);
     transition: 0.2s ease;
     font-weight: bolder;
+    font-size: 105%;
 }
 
 /* header */
@@ -337,6 +338,75 @@ nav{
     height: 364.77px;
 }
 
+/* newsletter */
+
+.newsletter{
+    display: flex;
+    justify-content: center;
+    margin-top: 92.23px;
+}
+
+.newsletter-content{
+    width: 1140px;
+    height: 632px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-title{
+    font-size: 97px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+form{
+    width: 497px;
+    height: 490px;
+}
+
+.form-content{
+    margin-top: 71px ;
+}
+
+.input-label{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
+input{
+    padding: 20px 0 20px 32px;
+    width: 465px;
+    /* height: 70px; */
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 6px 6px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.textarea{
+    padding: 20px 0 0 32px;
+    width: 465px;
+    height: 135px;
+    resize: none;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 19px;
+    box-shadow: 6px 6px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.form-button{
+    color: white;
+    background-color: #4E47FF;
+    padding: 19px 0;
+    width: 100%;
+    border-radius: 10px;
+}
 
 
 
