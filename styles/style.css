@@ -289,3 +289,40 @@ nav{
     font-weight: bold;
 }
 
+.focus-dis{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.focus-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Get-Started-Free{
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+.focus-image{
+    display: flex;
+    justify-content: center;
+}
+
+.focus-img{
+    border-radius: 48px;
+    margin-top: 20px;
+    width: 840px;
+    height: 364.77px;
+}
+
+
+
+
+
+
