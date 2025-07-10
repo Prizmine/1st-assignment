@@ -24,11 +24,25 @@
 }
 
 
-
 body{
     background-color: #4d47ff09;
+    
 }
 
+.btn-ani:hover{
+    /* background-color: rgb(0, 145, 255); */
+    background-image: linear-gradient(to right, pink, lightblue, lightgreen, yellow);
+    transition: 0.2s ease;
+    width: 10%;
+    font-weight: bolder;
+    font-size: 105%;
+}
+
+.btn-ani2:hover{
+    background-image: linear-gradient(to right, pink, lightblue, lightgreen, yellow);
+    transition: 0.2s ease;
+    font-weight: bolder;
+}
 
 /* header */
 
@@ -135,6 +149,7 @@ nav{
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
+    border: none;
 }
 
 .action-img{
@@ -307,6 +322,7 @@ nav{
     background-color: #4E47FF;
     padding: 12px 36px;
     border-radius: 10px;
+    border: none;
 }
 
 .focus-image{
