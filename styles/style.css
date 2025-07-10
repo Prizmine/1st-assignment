@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts */
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles */
+.color1{color:rgb(78, 71, 255);}
+.dark{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+
+/* header */
+
+nav{
+    background-image: url("../Assets/Hero-bg.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 100%;
+    height: 698px;
+}
+
+
+/* navigation */
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 63.5px;
+}
+
+.sign-in-button{
+    color: white;
+    background-color: rgb(78, 71, 255);
+    width: 132px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 150px;
+    border: none;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: 900;
+    margin-left: 150px;
+}
+
+.banner-heading{
+    display: flex;
+    justify-content: center;
+}
+
+
+.banner-title{
+    font-size: 65px;
+    margin-top: 158px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.focus-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 37px;
+
+}
+
+.focus{
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+
+}
+
+/* main */
+
+/* action */
+
+.action{
+    display: flex;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.action-content{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-left{margin-top: 62.5px;}
+
+.action-heading{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-dis{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.action-btn{
+    margin-top: 23px;
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.action-img{
+    height: 100%;
+    border-radius: 48px;
+}
+
+/* productive-section */
+
+.productive{
+    display: flex;
+    justify-content: center;
+    margin-top: 116px;
+}
+
+.productive-content{
+    height: 306px;
+    width: 1140px;
+    background-color: rgba(77, 71, 255, 0.1);
+    border-radius: 24px;
+}
+
+.productive-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.productive-analytics{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.analytics-percent{
+    text-align: center;
+}
+
+.analytics-num{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.analytics-dis{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* review */
+
+.review{
+    display: flex;
+    justify-content: center;
+    margin-top: 137px;
+}
+
+.review-content{
+    height: 342px;
+    width: 1140px;
+    background-color: paleturquoise;
+}
+
+.review-title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
