@@ -37,6 +37,7 @@ body{
     font-weight: bolder;
     font-size: 105%;
     cursor: pointer;
+    box-shadow: 10px 10px 50px   rgba(0, 0, 255, 0.47);
 }
 
 .btn-ani2:hover{
@@ -45,7 +46,32 @@ body{
     font-weight: bolder;
     font-size: 105%;
     cursor: pointer;
+    box-shadow: 10px 10px 50px   rgba(0, 0, 255, 0.47);
 }
+
+
+.btn-ani:active{
+    background-image: linear-gradient(to right, pink, lightblue, lightgreen, yellow);
+    transition: 0.2s ease;
+    width: 9%;
+    font-weight: bolder;
+    font-size: 90%;
+    cursor: pointer;
+    box-shadow: 10px 10px 50px   rgba(132, 255, 0, 0.47);
+}
+
+
+.btn-ani2:active{
+    background-image: linear-gradient(to right, pink, lightblue, lightgreen, yellow);
+    transition: 0.2s ease;
+    font-weight: bolder;
+    font-size: 100%;
+    cursor: pointer;
+    box-shadow: 10px 10px 50px  rgba(132, 255, 0, 0.47);
+}
+
+
+
 
 /* header */
 
@@ -462,10 +488,11 @@ ul{
 
 .nav-links:hover{
     color: rgb(142, 119, 119);
-    background-color: aqua;
-    padding: 3px;
+    background-color: rgb(204, 255, 0);
+    padding: 5px;
     border-radius: 13px;
     transition: 0.2s ease;
+    box-shadow: 5px 5px 50px  rgba(0, 255, 255, 0.732);
 }
 
 
